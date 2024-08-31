@@ -19,7 +19,7 @@ Learning Resources:
 * [Astronomer Academy - Astro: Onboarding](https://academy.astronomer.io/your-onboarding-journey)
 
 
-> *Acknowledgement: This project was created by following a code-along tutorial created by [@jayzern](https://www.youtube.com/channel/UCF931z8s2EvB67ZIBnLN6gA/search)*
+> *Acknowledgement: This project was created by following a code-along tutorial designed by [@jayzern](https://www.youtube.com/channel/UCF931z8s2EvB67ZIBnLN6gA/search)*
 
 Installation for dbt Modelling
 ================
@@ -46,7 +46,7 @@ create schema dbt_db.dbt_schema;
 -- create the `dbt` user (will be used to set up dbt `profiles.yml`)
 use role accountadmin;
 create user if not exists dbt_airflow
-  password='dbtPassword123'
+  password={password}
   login_name='dbt_airflow'
   must_change_password=FALSE
   default_warehouse='dbt_wh'
