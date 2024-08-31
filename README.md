@@ -131,6 +131,12 @@ Deployment dbt Projects with Airflow (Astro + Cosmos)
 
 7. Access Airflow UI to trigger the DAG
 
+* Add `snowflake_conn` connection under `Admin` -> `Connections`
+
+    <img src="./images/4-snowflake_conn-connection.png">
+
+* Turn on and trigger the DAG
+
     <img src="./images/2-dag.png">
 
 
