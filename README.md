@@ -18,9 +18,6 @@ Learning Resources:
 * [github.com/astronomer/cosmos-demo](https://github.com/astronomer/cosmos-demo)
 * [Astronomer Academy - Astro: Onboarding](https://academy.astronomer.io/your-onboarding-journey)
 
-
-> *Acknowledgement: This project was created by following a code-along tutorial designed by [@jayzern](https://www.youtube.com/channel/UCF931z8s2EvB67ZIBnLN6gA/search)*
-
 Installation for dbt Modelling
 ================
 
@@ -84,7 +81,7 @@ grant role dbt_role to user dbt_airflow;
 
     > *Skipping the dbt modeling part here as my learning focus is deploying dbt Core with Airflow Cosmos*
 
-Deployment dbt Projects with Airflow (Astro + Cosmos) 
+Deploy dbt Projects with Airflow (Astro + Cosmos) 
 ================
 
 1. Install `Astro CLI` and initialize a `dbt-dag` project 
@@ -141,3 +138,6 @@ Deployment dbt Projects with Airflow (Astro + Cosmos)
 
 
     <img src="./images/3-run.png">
+
+---
+Acknowledgement: This project was created by following a code-along [tutorial](https://www.youtube.com/watch?v=OLXkGB7krGo&t=480s) designed by [@jayzern](https://www.youtube.com/channel/UCF931z8s2EvB67ZIBnLN6gA/search)
