@@ -30,7 +30,7 @@ Installation for dbt Modelling
 -- use an admin role
 use role accountadmin;
 
--- create the DWH, DBT, and role for transformation (dbt project)
+-- create the DWH, DB, and role for transformation (dbt project)
 create warehouse dbt_wh with warehouse_size='x-small';
 create database dbt_db;
 create role dbt_role; 
